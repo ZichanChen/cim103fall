@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>On the Way of Finding the Right Person</title>
+        <style>
+            body{
+                background-color:lightcyan;
+            }
+        </style>
+        <link rel="stylesheet" href="css/assignment.css">
         <meta name="author" content="Lydia Chen">
         <meta name="description"content="On the Way of Finding the Right Person is a film that I directed this summer.">
         <meta name="keywords"content="original film, drama, family, romantic">
     </head>
     <body>
         <header>
-            <h1>What is this film about?</h1>
+            <nav>
+                <a href="#section1"class='purple'>ShootingPlace</a>
+                <a href="#section2"class='purple'>Director Profile</a>
+                <a href="#imagegallery"class='purple'>Clips From the Film</a>
+            </nav>
+            <h1>What is this Film about?</h1>
         </header>
         <main>
             <h1>On the Way of Finding the Right Person is a film I directed this summer. It tells a story about a man who approaches his dating life with egoism, navigating relationships through self-centered actions.</h1>
@@ -27,7 +38,7 @@
                     </ul>
                 </li>
             </ol>
-            <h4>Shooting Place</h4>
+            <h4 id="section1">Shooting Place</h4>
             <ul>
                 <li>Seaside</li>
                 <li>ANNLIN Coffee</li>
@@ -35,15 +46,15 @@
             </ul>
             <p>This link goes to the <strong>director's profile</strong> <a href="https://www.zichanchen.com/zichanchen" target="_blank">zichanchen.com</a></p>
             <!--The link above is a profile link of the director-->
-            <p>This link goes to the director's contact information <a href="https://www.zichanchen.com/contactinformation"> zichanchen.com/contactinformation</a></p>
-            <h5>Clips from the Film</h5>
-            <p>This is an image of the <u>outside scene</u> <img src="Images/outside scene.JPG" width="200" alt="Image of the outside scene"</p>
-            <p>This is an image of a coffee shop scene <img src="Images/coffee shop scene.JPG" width="200" alt="Image of the coffee shop scene"</p>
-            <p>This is an image of a internal house scene <img src="Images/internal house scene.JPG" width="200" alt="Image of the internal house scene"</p>
+            <p id="section2">This link goes to the director's contact information <a href="https://www.zichanchen.com/contactinformation"> zichanchen.com/contactinformation</a></p>
+            <h5 id="imagegallery">Clips from the Film</h5>
+            <p>This is an image of the <u>outside scene</u> <img class="imagegallery"src="Images/outside scene.JPG" width="200" alt="Image of the outside scene"></p>
+            <p>This is an image of a coffee shop scene <img class="imagegallery"src="Images/coffee shop scene.JPG" width="200" alt="Image of the coffee shop scene"></p>
+            <p>This is an image of a internal house scene <img class="imagegallery" src="Images/internal house scene.JPG" width="200" alt="Image of the internal house scene"></p>
         </main>
         <footer>
             <h1>Footer Section</h1>
-            <p>Lydia Chen Directed Film</p>
+            <p>Lydia Chen <span class="emphasize">Directed Film</p></span>
         </footer>
         <div></div>
     </body>

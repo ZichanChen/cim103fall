@@ -1,14 +1,127 @@
+
+@import url(@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap'));
+
 body{
     background-color: bisque;
 }
 
 header{
     background-color: rgb(255,0,0);
+    background-image: url("https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg");
+    background-size: cover; /*contain - reapeat those images*/
+    background-position:bottom; 
+    width: 960px;
+    height: 200px;
+    padding: 20px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -8px;
+    margin-bottom: 20px;
+
+}
+
+main{
+    background-color: darkmagenta;
+    width: 960px;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    margin: 0 auto; /*set top and bottom to 0 and left and right to */
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: rgb(11, 28, 27);
+    width: 960px;
+    height: auto;
+    padding: 20px 20px 20px 20px; /*top bottom left and right*/
+    border-top-style: 10px;
+    border-top-color: pink;
+    border-top-style:dotted; 
+    margin: 0 auto; 
 }
 h1{
     background-color: rgba(255,255,255,0.75);
+    font-family:"Arial" sans-serif;
+}
+
+h2{
+    color:pink;
+    text-align: right;
+    font-family: fantasy;
 }
 
 p{
     color: #feeeeeeee;
+    line-height: 10px;
+}
+
+li{
+    font-weight:bold;
+}
+
+ul{background-color: orange;}
+
+ul li{
+    color:green;
+    list-style: none;
+}
+
+ol li{
+    font-weight: lighter;
+    list-style:lower-roman;
+}
+
+.purple {
+    color:plum;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color:pink;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+nav{
+    background-color: rgba(0,0, 0,0.75);
+    width: 290px;
+    padding: 20px;
+    margin:0 auto;
+}
+nav a{
+    font-size: 20px;
+    color: chartreuse;
+    margin-right: 40px;
+    font-family:'Roboto',system-ui;
+    font-weight: 100;
+    font-style: italic;
+}
+nav a:hover{
+    text-decoration: none;
+    color:white; 
+}
+.leftnav{}
+.centerImage{
+    width:500px;
+    display:block; 
+    margin:0 auto; 
+}
+
+.ImageGallery{
+    width: 290px;
+    border-style:solid;
+    border-color:white;
+    border-width:10px 10px 50px 10px; /*top right bottom left*/
+}
+
+.underline{
+
 }
