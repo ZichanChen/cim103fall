@@ -11,7 +11,7 @@ body{
 h1{
     background-color: rgba(251, 186, 226, 0.75);
     font-family:"Arial" sans-serif;
-    border-block: solid;
+    border-block:solid;
 writing-mode: horizontal-tb;
 }
 
@@ -27,7 +27,7 @@ p{
 }
 
 .purple{
-    color:cornflowerblue;
+    color:rgb(176, 111, 18);
     text-decoration: none;
 }
 
@@ -60,6 +60,10 @@ nav a{
     color:crimson
 }
 
+.bold-text{
+    font-weight: bold;
+    color:indigo;
+}
 footer{
     background-color: rgb(179, 232, 176);
     width: 960px;
